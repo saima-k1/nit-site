@@ -1,0 +1,106 @@
+.HomeBar{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  gap: 20px;
+  height: 75px;
+  width: 1500px;
+  background-color: rgb(91, 91, 248);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.mainDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 20px;
+  border-color: black;
+  padding-top: 50px;
+}
+
+.Title1{
+  padding-left: 20px;
+}
+
+.BigText1{
+  padding-left: 20px;
+}
+
+.BigText2{
+  padding-left: 20px;
+}
+
+.Picture{
+  border-top: 2px solid rgb(190, 189, 247);
+  border-bottom: 2px solid rgb(190, 189, 247);
+  border-right: 2px solid rgb(190, 189, 247);
+  border-radius: 0px 20px 20px 0px;
+  height: 500px;
+  width: 500px;
+}
+
+.Pic{
+  padding-top: 4px;
+}
+
+.Texts{
+  padding-right: 50px;
+  padding-bottom: 50px;
+  height: 450px;
+  width: 900px;
+  border-top: 2px solid rgb(190, 189, 247);
+  border-bottom: 2px solid rgb(190, 189, 247);
+  border-left: 2px solid rgb(190, 189, 247);
+  border-radius: 20px 0px 0px 20px;
+}
+
+.Button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.button{
+  height: 70px;
+  width: 150px;
+  background-color: rgb(65, 65, 179);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: rgb(65, 65, 179);
+}
+
+.button:hover{
+  transition: 0.2s;
+  background: rgb(135, 150, 248);
+
+}
+
+.BarTitle1{
+  color: white;
+}
+
+.BarTitle2{
+  color: white;
+}
+
+.BarTitle3{
+  color: white;
+}
+
+.BarTitle4{
+  color: white;
+}
+
+.BarTitle5{
+  color: white;
+}
+
+.BarTitle6{
+  color: white;
+}
