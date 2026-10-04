@@ -9,35 +9,6 @@ import { Libertinus_Keyboard } from "next/font/google";
 export default function Page(){
     return(
         <div className="HomeDiv">
-        <div className="HomeBar">
-            {/* <div className="BarPic">
-                <Image
-                className="BarPicture" 
-                src="/Images/NitLogo.jpg" 
-                alt="Author" 
-                width={500}
-                height={500} 
-                />
-            </div>  */}
-            <nav>
-                <Link href="/training-center" className="BarTitle1">NIT Trening Centar</Link>
-            </nav>
-            <nav>
-                <Link href="/inkubator" className="BarTitle2">NIT Inkubator</Link>
-            </nav>
-            <nav>
-                <Link href="/zajednica" className="BarTitle3">NIT Zajednica</Link>
-            </nav>
-            <nav>
-                <Link href="/uspesne-price" className="BarTitle4">Uspesne Price</Link>
-            </nav>
-            <nav>
-                <Link href="/o-nama" className="BarTitle5">O Nama</Link>
-            </nav>
-            <nav>
-                <Link href="/kontakt" className="BarTitle6">Kontakt</Link>
-            </nav>
-        </div>
         <div className="mainDiv">
             <div className="Texts">
                 <h3 className="Title1">🧠 Kurs programiranja za osnovce</h3>
