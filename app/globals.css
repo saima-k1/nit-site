@@ -2,7 +2,7 @@
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  gap: 20px;
+  gap: 30px;
   height: 75px;
   width: 1500px;
   background-color: rgb(91, 91, 248);
@@ -103,4 +103,30 @@
 
 .BarTitle6{
   color: white;
+}
+
+.FooterKontakt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1000px;
+}
+
+.FooterKontaktTitle{
+  align-items: center;
+  flex-direction: column;
+}
+
+.FooterPicture{
+  height: 100px;
+  width: 100px;
+}
+
+.FooterLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 500px;
 }
