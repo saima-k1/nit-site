@@ -110,7 +110,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 1000px;
+  gap: 900px;
 }
 
 .FooterKontaktTitle{
@@ -129,4 +129,53 @@
   justify-content: center;
   flex-direction: row;
   gap: 500px;
+}
+
+
+
+/* .FooterBuuton{
+  background: linear-gradient(
+    105deg,
+    #f52f59 0%,
+    #ff7c89 48%,
+    #ffd0a7 100%
+  );
+} */
+
+.FooterKontakt{
+  display: flex;
+  width: 1500px;
+  height: 200px;
+  background-color: rgb(58, 137, 255);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.FooterLogo{
+  display: flex;
+  width: 1500px;
+  height: 175px;
+  background-color: rgb(58, 137, 255);
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.FooterButton{
+  height: 50px;
+  width: 175px;
+  background-color: white;
+  border-color: white;
+  border-radius: 25px;
+  color: rgb(58, 137, 255);;
+}
+
+.FooterKontaktTitle1{
+  color: white;
+}
+
+.FooterKontaktTitle2{
+  color: white;
 }
