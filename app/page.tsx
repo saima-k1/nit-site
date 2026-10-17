@@ -40,6 +40,12 @@ export default function Page(){
             </div> 
         </div>
         <div>
+        <div className="KurseviDiv">
+            <div className="KurseviTitle">
+                <h4 className="KurseviTitle1">Vaša ideja - Naše iskustvo</h4>
+                <h2 className="KurseviTitle2">Poboljšajte vašu ideju i dajte joj</h2>
+                <h2 className="KurseviTitle3">novi identitet uspeha</h2>
+            </div>
         <div className="Kursevi">
             <div className="ObukeKursevi">
                 <h3 className="KursMain">Obuke i kursevi</h3>
@@ -70,6 +76,7 @@ export default function Page(){
                 <p className="Zajednica4">Postavljanje novih trendova</p>
                 <p className="Zajednica5">Popularizacija IT medju decom i mladima</p>
             </div>
+        </div>
         </div>
         </div>
         </div>
